@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    background-color:rgba(101, 18, 140, 0.621)
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    width:430px;
+    margin-top:50px;
+    border:0.125px solid black; 
+    border-radius:8px;
+    background-color:rgb(184, 219, 207);
+    box-shadow: 2px 4px 20px white;
+}
+.container:hover{
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.input-container{
+    width:100%;
+    max-width:500px;
+    text-align:center;
+    padding:20px;
+}
+
+.input-container input{
+   border:none;
+   outline:none;
+   padding:12px;
+   margin-block:12px;
+   border-radius:5px;
+   font-size:15px;
+
+}
+
+.input-container input[type="text"]{
+    width:70%;
+}
+
+.input-container input[type="button"]{
+    background-color:rgb(41, 181, 41);
+    color:white;
+    font-weight: bold;
+    margin-left:10px;
+    cursor:pointer;
+    padding:12px 22px;
+}
+
+.input-container input[type="button"]:hover{
+    background-color:rgb(11, 105, 11)
+}
+
+ul{
+    width:100%;
+    max-width:400px;
+    /* display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center; */
+}
+
+ul li{
+    list-style-type: none;
+    cursor:pointer;
+    margin-block-end:12px;
+    border-radius:8px;
+    border:0.125px solid black;
+    padding:6px 12px;
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover{
+    background-color:rgb(225, 209, 209);
+}
+
+ul li p{
+    flex-grow:1;
+    padding:5px;
+}
+
+.btn{
+    border:none;
+    outline:none;
+    font-size:15px;
+    background:none;
+    font-weight: bold;
+    cursor:pointer;
+    padding:8px;
+    
+}
+
+.deleteBtn{
+    color:rgb(202, 66, 66);    
+}
+.deleteBtn:hover{
+    color:rgb(138, 17, 17);
+}
+
+.editBtn{
+    color:green;
+}
+.editBtn:hover{
+    color:rgb(5, 48, 5);
+}
