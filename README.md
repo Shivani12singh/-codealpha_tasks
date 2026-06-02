@@ -4,7 +4,7 @@ A simple and responsive To-Do List web application built using HTML, CSS, and Ja
 
 ## Project Screenshot
 
-![To-Do List App](screenshots/todo-app.png)
+![To-Do List App](screenshorts/todo-app.png)
 
 ## Features
 
